@@ -73,7 +73,7 @@
  <scenes>
   <scene name="Top" id="0a3fc8d7480003bb" nbframes="60" startFrame="1" stopFrame="60">
    <columns>
-    <column type="0" name="ATV-0A414CF2AE700C5A" displayOrder="0" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-0A414CF2AE700C5A" display="false" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-60" val="1" id="2"/>
     </column>
     <column type="3" name="ATV-0A414CF2AE70232C" displayOrder="0" width="100" anonymous="true">
@@ -224,6 +224,7 @@
      </module>
      <module type="READ" name="dragon" pos="0,0,0" publishUnderTab="dragon">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -351,6 +352,68 @@
        </color>
       </attrs>
      </module>
+     <module type="PEG" name="body-P" pos="0,0,0" publishUnderTab="body-P">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="1.8333289049590584" defaultValue="0"/>
+        <y val="-4.7499885264848354" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
      <module type="READ" name="body" pos="0,0,0" publishUnderTab="head">
       <options>
        <collapsed val="false"/>
@@ -461,6 +524,68 @@
        <canAnimate val="true"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="wing_R-P" pos="0,0,0" publishUnderTab="wing_R-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0.95833101850132341" defaultValue="0"/>
+        <y val="0.27777710681197731" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
       </attrs>
      </module>
      <module type="READ" name="wing_R" pos="0,0,0" publishUnderTab="wing_L">
@@ -575,6 +700,68 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
+     <module type="PEG" name="wing_L-P" pos="0,0,0" publishUnderTab="wing_L-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="3.6249912438963223" defaultValue="0"/>
+        <y val="-0.11111084272479128" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
      <module type="READ" name="wing_L" pos="0,0,0" publishUnderTab="wing_L">
       <options>
        <collapsed val="false"/>
@@ -685,6 +872,68 @@
        <canAnimate val="true"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Leg_R-P" pos="0,0,0" publishUnderTab="Leg_R-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0.45833222623976555" defaultValue="0"/>
+        <y val="-5.4444312935147794" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
       </attrs>
      </module>
      <module type="READ" name="Leg_R" pos="0,0,0" publishUnderTab="Leg_R">
@@ -799,6 +1048,68 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
+     <module type="PEG" name="Leg_L-P" pos="0,0,0" publishUnderTab="Leg_L-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="5.2916538847681913" defaultValue="0"/>
+        <y val="-5.8888746644139447" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
      <module type="READ" name="Leg_L" pos="0,0,0" publishUnderTab="Leg_L">
       <options>
        <collapsed val="false"/>
@@ -909,6 +1220,68 @@
        <canAnimate val="true"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Arm_L-P" pos="0,0,0" publishUnderTab="Arm_L-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="2.9999927535693711" defaultValue="0"/>
+        <y val="-0.11111084272479124" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
       </attrs>
      </module>
      <module type="READ" name="Arm_L" pos="0,0,0" publishUnderTab="Arm_L">
@@ -1023,6 +1396,68 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
+     <module type="PEG" name="Arm_R-P" pos="0,0,0" publishUnderTab="Arm_R-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
      <module type="READ" name="Arm_R" pos="0,0,0" publishUnderTab="Arm_R">
       <options>
        <collapsed val="false"/>
@@ -1133,6 +1568,68 @@
        <canAnimate val="true"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Head-P" pos="0,0,0" publishUnderTab="Head-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="-0.12499969806539017" defaultValue="0"/>
+        <y val="-2.3333276972206196" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
       </attrs>
      </module>
      <module type="READ" name="Head" pos="0,0,0" publishUnderTab="Head">
@@ -1247,6 +1744,68 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
+     <module type="PEG" name="Tail-P" pos="0,0,0" publishUnderTab="Tail-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="4.9583213565938227" defaultValue="0"/>
+        <y val="-7.7222035693730042" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
      <module type="READ" name="Tail" pos="0,0,0" publishUnderTab="Tail">
       <options>
        <collapsed val="false"/>
@@ -1357,6 +1916,68 @@
        <canAnimate val="true"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Neck-P" pos="0,0,0" publishUnderTab="Neck-P">
+      <options>
+       <collapsed val="true"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="1.9999951690462463" defaultValue="0"/>
+        <y val="-0.055555421362396426" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
       </attrs>
      </module>
      <module type="READ" name="Neck" pos="0,0,0" publishUnderTab="Neck">
@@ -1477,15 +2098,34 @@
      <link out="Composite" in="Write"/>
      <link out="dragon" in="Composite" inport="1"/>
      <link out="Colour-Card" in="Composite" inport="0"/>
+     <link out="body-P" in="Head-P"/>
+     <link out="body-P" in="Arm_R-P"/>
+     <link out="body-P" in="Arm_L-P"/>
+     <link out="body-P" in="Neck-P"/>
+     <link out="body-P" in="Leg_L-P"/>
+     <link out="body-P" in="Leg_R-P"/>
+     <link out="body-P" in="wing_L-P"/>
+     <link out="body-P" in="wing_R-P"/>
+     <link out="body-P" in="Tail-P"/>
+     <link out="body-P" in="body" inport="0"/>
      <link out="body" in="Composite" inport="2"/>
+     <link out="wing_R-P" in="wing_R" inport="0"/>
      <link out="wing_R" in="Composite" inport="4"/>
+     <link out="wing_L-P" in="wing_L" inport="0"/>
      <link out="wing_L" in="Composite" inport="5"/>
+     <link out="Leg_R-P" in="Leg_R" inport="0"/>
      <link out="Leg_R" in="Composite" inport="6"/>
+     <link out="Leg_L-P" in="Leg_L" inport="0"/>
      <link out="Leg_L" in="Composite" inport="7"/>
+     <link out="Arm_L-P" in="Arm_L" inport="0"/>
      <link out="Arm_L" in="Composite" inport="9"/>
+     <link out="Arm_R-P" in="Arm_R" inport="0"/>
      <link out="Arm_R" in="Composite" inport="10"/>
+     <link out="Head-P" in="Head" inport="0"/>
      <link out="Head" in="Composite" inport="11"/>
+     <link out="Tail-P" in="Tail" inport="0"/>
      <link out="Tail" in="Composite" inport="3"/>
+     <link out="Neck-P" in="Neck" inport="0"/>
      <link out="Neck" in="Composite" inport="8"/>
     </linkedlist>
    </rootgroup>

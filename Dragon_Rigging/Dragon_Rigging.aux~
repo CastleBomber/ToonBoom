@@ -1,5 +1,5 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="Dragon_Rigging" Modified="2020-08-06 13:20:05" ID="1">
+<SceneVersion VersionName="Dragon_Rigging" Modified="2020-08-06 13:40:33" ID="1">
  <Element Name="dragon" ID="2" Folder="dragon">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
@@ -24,7 +24,9 @@
  <Element Name="Arm_R" ID="10" Folder="Arm_R">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Head" ID="11" Folder="Head"/>
+ <Element Name="Head" ID="11" Folder="Head">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
  <Element Name="Tail" ID="12" Folder="Tail">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
