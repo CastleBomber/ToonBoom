@@ -41,11 +41,7 @@
     <dwg name="1"/>
    </drawings>
   </element>
-  <element id="11" elementName="Head" elementFolder="Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
-   <drawings>
-    <dwg name="1"/>
-   </drawings>
-  </element>
+  <element id="11" elementName="Head" elementFolder="Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
   <element id="12" elementName="Tail" elementFolder="Tail" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
@@ -146,9 +142,7 @@
     <column type="0" name="ATV-0A41CECB86500D90" displayOrder="0" width="100" anonymous="true" id="10">
      <elementSeq exposures="1" val="1" id="10"/>
     </column>
-    <column type="0" name="ATV-0A41CECB86500EDA" displayOrder="0" width="100" anonymous="true" id="11">
-     <elementSeq exposures="1" val="1" id="11"/>
-    </column>
+    <column type="0" name="ATV-0A41CECB86500EDA" displayOrder="0" width="100" anonymous="true" id="11"/>
     <column type="0" name="ATV-0A41CECB86516549" displayOrder="0" width="100" anonymous="true" id="12">
      <elementSeq exposures="1" val="1" id="12"/>
     </column>
