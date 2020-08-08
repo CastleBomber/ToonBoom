@@ -528,7 +528,7 @@
      </module>
      <module type="PEG" name="wing_R-P" pos="0,0,0" publishUnderTab="wing_R-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -702,7 +702,7 @@
      </module>
      <module type="PEG" name="wing_L-P" pos="0,0,0" publishUnderTab="wing_L-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -876,7 +876,7 @@
      </module>
      <module type="PEG" name="Leg_R-P" pos="0,0,0" publishUnderTab="Leg_R-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -1050,7 +1050,7 @@
      </module>
      <module type="PEG" name="Leg_L-P" pos="0,0,0" publishUnderTab="Leg_L-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -1080,8 +1080,8 @@
        <angle val="0" defaultValue="0"/>
        <skew val="0" defaultValue="0"/>
        <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
+        <x val="5.2916538847681913" defaultValue="0"/>
+        <y val="-5.8888746644139447" defaultValue="0"/>
         <z val="0" defaultValue="0"/>
        </pivot>
        <splineOffset>
@@ -1224,7 +1224,7 @@
      </module>
      <module type="PEG" name="Arm_L-P" pos="0,0,0" publishUnderTab="Arm_L-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -1398,7 +1398,7 @@
      </module>
      <module type="PEG" name="Arm_R-P" pos="0,0,0" publishUnderTab="Arm_R-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -1572,7 +1572,7 @@
      </module>
      <module type="PEG" name="Head-P" pos="0,0,0" publishUnderTab="Head-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -1746,7 +1746,7 @@
      </module>
      <module type="PEG" name="Tail-P" pos="0,0,0" publishUnderTab="Tail-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -1920,7 +1920,7 @@
      </module>
      <module type="PEG" name="Neck-P" pos="0,0,0" publishUnderTab="Neck-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -2098,6 +2098,15 @@
      <link out="Composite" in="Write"/>
      <link out="dragon" in="Composite" inport="1"/>
      <link out="Colour-Card" in="Composite" inport="0"/>
+     <link out="body-P" in="Head-P"/>
+     <link out="body-P" in="Arm_R-P"/>
+     <link out="body-P" in="Arm_L-P"/>
+     <link out="body-P" in="Neck-P"/>
+     <link out="body-P" in="Leg_L-P"/>
+     <link out="body-P" in="Leg_R-P"/>
+     <link out="body-P" in="wing_L-P"/>
+     <link out="body-P" in="wing_R-P"/>
+     <link out="body-P" in="Tail-P"/>
      <link out="body-P" in="body" inport="0"/>
      <link out="body" in="Composite" inport="2"/>
      <link out="wing_R-P" in="wing_R" inport="0"/>
