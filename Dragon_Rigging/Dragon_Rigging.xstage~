@@ -286,8 +286,8 @@
      <noFrames/>
      <points version="2">
       <pt constSeg="false" x="10" yLocal="-3.8522036884374664" y="-3.8522036884374664"/>
-      <pt constSeg="false" x="20" yLocal="-2.1210466549735134" y="-2.1210466549735134"/>
       <pt constSeg="false" x="1,80" yLocal="0" y="0"/>
+      <pt constSeg="false" x="20" yLocal="2.3718178619402828" y="2.3718178619402828"/>
      </points>
     </column>
     <column type="3" name="ATV-0A425304F7B02942" displayOrder="0" width="100" anonymous="true">
@@ -489,7 +489,8 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,10,80" yLocal="0" y="0"/>
+      <pt constSeg="false" x="10" yLocal="-2.8061331626058208" y="-2.8061331626058208"/>
+      <pt constSeg="false" x="1,80" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0A425304F7B029DC" displayOrder="0" width="100" anonymous="true">
@@ -792,7 +793,8 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,10,80" yLocal="0" y="0"/>
+      <pt constSeg="false" x="10" yLocal="-1.5674525930050307" y="-1.5674525930050307"/>
+      <pt constSeg="false" x="1,80" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0A425304F7B02AC3" displayOrder="0" width="100" anonymous="true">
@@ -891,7 +893,8 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,10,80" yLocal="0" y="0"/>
+      <pt constSeg="false" x="10" yLocal="-1.8948953536764739" y="-1.8948953536764739"/>
+      <pt constSeg="false" x="1,80" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0A425304F7B02B10" displayOrder="0" width="100" anonymous="true">
@@ -2890,7 +2893,7 @@
      </module>
      <module type="PEG" name="Neck-P" pos="0,0,0" publishUnderTab="Neck-P">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -3069,7 +3072,6 @@
      <link out="Composite" in="Write"/>
      <link out="dragon" in="Composite" inport="1"/>
      <link out="ColourCard" in="Composite" inport="0"/>
-     <link out="body-P" in="Head-P"/>
      <link out="body-P" in="Arm_R-P"/>
      <link out="body-P" in="Arm_L-P"/>
      <link out="body-P" in="Neck-P"/>
@@ -3089,13 +3091,14 @@
      <link out="Leg_L-P" in="Leg_L" inport="0"/>
      <link out="Leg_L" in="Composite" inport="7"/>
      <link out="Arm_L-P" in="Arm_L" inport="0"/>
-     <link out="Arm_L" in="Composite" inport="9"/>
+     <link out="Arm_L" in="Composite" inport="10"/>
      <link out="Arm_R-P" in="Arm_R" inport="0"/>
-     <link out="Arm_R" in="Composite" inport="10"/>
+     <link out="Arm_R" in="Composite" inport="11"/>
      <link out="Head-P" in="Head" inport="0"/>
-     <link out="Head" in="Composite" inport="11"/>
+     <link out="Head" in="Composite" inport="9"/>
      <link out="Tail-P" in="Tail" inport="0"/>
      <link out="Tail" in="Composite" inport="3"/>
+     <link out="Neck-P" in="Head-P"/>
      <link out="Neck-P" in="Neck" inport="0"/>
      <link out="Neck" in="Composite" inport="8"/>
     </linkedlist>
