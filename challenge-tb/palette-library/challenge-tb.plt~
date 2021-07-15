@@ -1,0 +1,10 @@
+ToonBoomAnimationInc PaletteFile 2
+Solid    "rndm blue"                0x0ab28e0cb270066a  67 209 249 255
+Solid    White                      0x0ab28e0cb270066c 255 255 255 255
+Solid    Red                        0x0ab28e0cb270066e 255   0   0 255
+Solid    Green                      0x0ab28e0cb2700670   0 255   0 255
+Solid    Blue                       0x0ab28e0cb2700672   0   0 255 255
+Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
+Solid    "New 0"                    0x0ab28e0cb271adbb 255   0   0 255
+Solid    magenta                    0x0ab3cd76e2f1c8e0 200  67 205 255
+Solid    "New 1"                    0x0ab3cd76e2f1d21b   0   0   0 255

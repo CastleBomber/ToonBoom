@@ -1,0 +1,33 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="challenge-tb" Modified="2021-06-15 16:22:50" ID="1">
+ <Element Name="outline" ID="7" Folder="outline">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="dragon" ID="8" Folder="dragon">
+  <Drawing Key="" Name="x" Version="1"/>
+  <Drawing Key="" Name="x3" Version="1"/>
+  <Drawing Key="" Name="xy3" Version="1"/>
+  <Drawing Key="" Name="100" Version="1"/>
+ </Element>
+ <Element Name="b1" ID="9" Folder="b1">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="b2" ID="10" Folder="b2">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Drawing" ID="11" Folder="Drawing">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="diamonds" ID="14" Folder="diamonds">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="diamonds" ID="15" Folder="diamonds.15">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="test" ID="16" Folder="test">
+  <Drawing Key="" Name="pixilation" Version="1"/>
+ </Element>
+ <Element Name="test" ID="18" Folder="test.18">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+</SceneVersion>

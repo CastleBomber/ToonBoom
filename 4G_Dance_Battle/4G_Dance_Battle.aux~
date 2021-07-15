@@ -1,0 +1,24 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="4G_Dance_Battle" Modified="2021-07-06 17:45:25" ID="1">
+ <Element Name="drawing_body" ID="1" Folder="drawing_body">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Dragon" ID="4" Folder="Dragon">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Dragon" ID="19" Folder="Dragon.19">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="background_1" ID="20" Folder="background_1">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="background_4_flipped_v" ID="21" Folder="background_4_flipped_v">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="background_2_flipped_h" ID="22" Folder="background_2_flipped_h">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="background_4_flipped_v_x" ID="23" Folder="background_4_flipped_v_x">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+</SceneVersion>
