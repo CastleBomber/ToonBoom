@@ -1,0 +1,12 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="6B_Ocean" Modified="2021-07-23 18:37:47" ID="1">
+ <Element Name="Drawing" ID="1" Folder="Drawing">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="background_ocean" ID="2" Folder="background_ocean">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="bomb" ID="3" Folder="bomb">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+</SceneVersion>
