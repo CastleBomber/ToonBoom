@@ -1,5 +1,5 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="2A_Dragon_Castle" Modified="2021-07-29 10:12:37" ID="1">
+<SceneVersion VersionName="2A_Dragon_Castle" Modified="2021-08-09 19:31:53" ID="1">
  <Element Name="Dragon" ID="1" Folder="Dragon">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
@@ -21,7 +21,10 @@
  <Element Name="cliff-cut" ID="13" Folder="cliff-cut">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="r1" ID="14" Folder="r1">
+ <Element Name="reference" ID="15" Folder="reference">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="sky" ID="16" Folder="sky">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
 </SceneVersion>

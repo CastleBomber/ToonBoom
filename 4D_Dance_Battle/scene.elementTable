@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <elements source="Harmony Essentials (HarmonyEssentials.exe) version 20.0.3 build 16743 2021-02-09 08:56:36" version="2003" build="16743">
- <element id="1" elementName="Scan_3_moves" elementFolder="Scan_3_moves" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="2" elementName="Flame_wheel" elementFolder="Flame_wheel" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="3" elementName="Headstand" elementFolder="Headstand" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="4" elementName="Fire" elementFolder="Fire" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="5" elementName="Scan_upside_bomber" elementFolder="Scan_upside_bomber" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="6" elementName="Bomb" elementFolder="Bomb" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="7" elementName="Fire_" elementFolder="Fire_" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="13" elementName="etchedlayer" elementFolder="etchedlayer" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="15" elementName="swirl" elementFolder="swirl" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="16" elementName="lightning" elementFolder="lightning" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="7" elementName="Fire_wheel_1" elementFolder="Fire_wheel_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="13" elementName="CastleBomber_RF" elementFolder="CastleBomber_RF" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="14" elementName="background" elementFolder="background" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="15" elementName="circles_cut" elementFolder="circles_cut" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="17" elementName="CastleBomber_starter" elementFolder="CastleBomber_starter" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="18" elementName="CastleBomber_std" elementFolder="CastleBomber_std.18" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="21" elementName="CastleBomber_run_R1" elementFolder="CastleBomber_run_R1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="22" elementName="CastleBomber_run_R2" elementFolder="CastleBomber_run_R2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="23" elementName="CastleBomber_run_R3" elementFolder="CastleBomber_run_R3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="24" elementName="CastleBomber_jump_spin" elementFolder="CastleBomber_jump_spin" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="25" elementName="CB_fall_std" elementFolder="CB_fall_std" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="26" elementName="CB_fall_R1" elementFolder="CB_fall_R1.26" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="27" elementName="CB_fall_R2" elementFolder="CB_fall_R2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="28" elementName="Fire_Trail_Linear" elementFolder="Fire_Trail_Linear" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="29" elementName="Fire_wheel_2" elementFolder="Fire_wheel_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="30" elementName="Fire_wheel_3" elementFolder="Fire_wheel_3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="31" elementName="Fire_wheel_4" elementFolder="Fire_wheel_4" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="32" elementName="Fire_wheel_5" elementFolder="Fire_wheel_5" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="33" elementName="Fire_wheel_6" elementFolder="Fire_wheel_6" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="34" elementName="Fire_Trail_end" elementFolder="Fire_Trail_end" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>

@@ -1,36 +1,63 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="4D_Dance_Battle" Modified="2021-08-03 13:30:33" ID="1">
- <Element Name="Scan_3_moves" ID="1" Folder="Scan_3_moves">
+<SceneVersion VersionName="4D_Dance_Battle" Modified="2021-08-06 20:39:46" ID="1">
+ <Element Name="Fire_wheel_1" ID="7" Folder="Fire_wheel_1">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Flame_wheel" ID="2" Folder="Flame_wheel">
+ <Element Name="CastleBomber_RF" ID="13" Folder="CastleBomber_RF">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Headstand" ID="3" Folder="Headstand">
+ <Element Name="background" ID="14" Folder="background">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Fire" ID="4" Folder="Fire">
+ <Element Name="CastleBomber_starter" ID="17" Folder="CastleBomber_starter">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="CastleBomber_std" ID="18" Folder="CastleBomber_std.18">
+  <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Scan_upside_bomber" ID="5" Folder="Scan_upside_bomber">
+ <Element Name="CastleBomber_run_R1" ID="21" Folder="CastleBomber_run_R1">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+ </Element>
+ <Element Name="CastleBomber_run_R2" ID="22" Folder="CastleBomber_run_R2">
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="CastleBomber_run_R3" ID="23" Folder="CastleBomber_run_R3">
+  <Drawing Key="" Name="3" Version="1"/>
+ </Element>
+ <Element Name="CastleBomber_jump_spin" ID="24" Folder="CastleBomber_jump_spin">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Bomb" ID="6" Folder="Bomb">
+ <Element Name="CB_fall_std" ID="25" Folder="CB_fall_std">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Fire_" ID="7" Folder="Fire_">
+ <Element Name="CB_fall_R1" ID="26" Folder="CB_fall_R1.26">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="grey_bomb" ID="8" Folder="grey_bomb">
+ <Element Name="CB_fall_R2" ID="27" Folder="CB_fall_R2">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="etchedlayer" ID="13" Folder="etchedlayer">
+ <Element Name="Fire_Trail_Linear" ID="28" Folder="Fire_Trail_Linear">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="swirl" ID="15" Folder="swirl">
+ <Element Name="Fire_wheel_2" ID="29" Folder="Fire_wheel_2">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="lightning" ID="16" Folder="lightning">
+ <Element Name="Fire_wheel_3" ID="30" Folder="Fire_wheel_3">
   <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Fire_wheel_4" ID="31" Folder="Fire_wheel_4">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="Fire_wheel_5" ID="32" Folder="Fire_wheel_5">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Fire_wheel_6" ID="33" Folder="Fire_wheel_6">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
  </Element>
 </SceneVersion>

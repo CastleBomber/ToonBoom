@@ -23,3 +23,5 @@ Solid    "darkish red"              0x0ab5dcdec033a4f9 199  72  41 255
 Solid    brownee                    0x0ab5dcdec0341ee1  86  61  61 255
 Solid    redee                      0x0ab5dcdec03423bd 188  44  44 255
 Solid    eye                        0x0ab5dcdec0342a98  44 208 255 255
+Solid    bomb-string                0x0ac14974d1e2eb41 221 188 154 255
+Solid    bomb-string-dark           0x0ac14974d1e2ebcf  44  16  16 255
