@@ -1,12 +1,26 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="6B_Ocean" Modified="2021-07-23 18:37:47" ID="1">
- <Element Name="Drawing" ID="1" Folder="Drawing">
+<SceneVersion VersionName="6B_Ocean" Modified="2021-08-11 20:35:07" ID="1">
+ <Element Name="B_KO" ID="1" Folder="B_KO">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
  <Element Name="background_ocean" ID="2" Folder="background_ocean">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="bomb" ID="3" Folder="bomb">
+ <Element Name="B_Starter" ID="4" Folder="B_Starter">
   <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Moon_Starter" ID="5" Folder="Moon_Starter">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Moon" ID="7" Folder="Moon">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Background_Grey" ID="8" Folder="Background_Grey">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="B_side" ID="10" Folder="B_side">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
  </Element>
 </SceneVersion>

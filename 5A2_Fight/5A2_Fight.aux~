@@ -1,0 +1,48 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="5A2_Fight" Modified="2021-08-12 23:15:22" ID="1">
+ <Element Name="body" ID="4" Folder="body">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="wing_R" ID="5" Folder="wing_R">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="wing_L" ID="6" Folder="wing_L.6">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Leg_R" ID="7" Folder="Leg_R">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Leg_L" ID="8" Folder="Leg_L">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Arm_L" ID="9" Folder="Arm_L">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Arm_R" ID="10" Folder="Arm_R">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Head" ID="11" Folder="Head">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Tail" ID="12" Folder="Tail">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Neck" ID="13" Folder="Neck">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="D-Starter-Odd" ID="14" Folder="D-Starter-Odd">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="CB-Starter" ID="17" Folder="CB-Starter">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="BG_1" ID="18" Folder="BG_1">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="BG_2" ID="19" Folder="BG_2">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="CB" ID="20" Folder="CB">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+</SceneVersion>
