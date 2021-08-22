@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Harmony Essentials (HarmonyEssentials.exe) version 20.0.3 build 16743 2021-02-09 08:56:36" version="2003" build="16743">
+ <element id="27" elementName="BG_Tmp" elementFolder="BG_Tmp" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="35" elementName="D" elementFolder="D.35" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="36" elementName="D_Starter" elementFolder="D_Starter" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="37" elementName="D2" elementFolder="D2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="38" elementName="Sun_Glasses" elementFolder="Sun_Glasses" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="39" elementName="Sun_Glasses_2" elementFolder="Sun_Glasses_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="40" elementName="BG" elementFolder="BG.40" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>

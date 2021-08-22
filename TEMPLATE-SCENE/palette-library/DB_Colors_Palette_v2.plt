@@ -17,3 +17,4 @@ Solid    White                      0x0ab9d56bcb22c9e4 255 255 255 255
 Solid    "Red Violet"               0x0ab8c49160301ff2 146  39 143 255
 Solid    "Dragon Abs Purple + Jewel (burn)" 0x0ab9ddf94eb2e7d1 173 117 212 255
 Solid    "Dragon Crown (Light)"     0x0ab9ddf94eb34fd7 255 255 130 255
+Solid    "Dragon Tongue"            0x0abc4e11701ec2a1 231 133 155 255

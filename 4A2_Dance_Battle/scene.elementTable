@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Harmony Essentials (HarmonyEssentials.exe) version 20.0.3 build 16743 2021-02-09 08:56:36" version="2003" build="16743">
+ <element id="9" elementName="Legs" elementFolder="Legs.9" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="21" elementName="D" elementFolder="D.21" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="22" elementName="D_Ref" elementFolder="D_Ref" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="23" elementName="D_Arm" elementFolder="D_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="24" elementName="BG" elementFolder="BG" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="25" elementName="Red_Patch" elementFolder="Red_Patch" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>

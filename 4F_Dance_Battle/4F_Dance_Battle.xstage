@@ -52,7 +52,7 @@
      <elementSeq exposures="1-48,49-96" val="1" id="7"/>
     </column>
     <column type="0" name="lightning-1" displayOrder="0" width="100" anonymous="true" id="16">
-     <elementSeq exposures="1-48" val="1" id="16"/>
+     <elementSeq exposures="1-96" val="1" id="16"/>
     </column>
     <column type="3" name="ATV-0AC14974D1E01011" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
@@ -216,21 +216,21 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,48" yLocal="1.1256360848367248" y="1.1256360848367248"/>
+      <pt constSeg="false" x="1,96" yLocal="1.1256360848367248" y="1.1256360848367248"/>
      </points>
     </column>
     <column type="3" name="ATV-0AC14974D1E37EAF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,48" yLocal="1.1125526133976136" y="1.1125526133976136"/>
+      <pt constSeg="false" x="1,96" yLocal="1.1125526133976136" y="1.1125526133976136"/>
      </points>
     </column>
     <column type="3" name="ATV-0AC14974D1E385E5" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="48" yLocal="0.90370152082830169" y="0.90370152082830169"/>
+      <pt constSeg="false" x="96" yLocal="0.90370152082830169" y="0.90370152082830169"/>
       <pt constSeg="false" x="1" yLocal="1.94369900873235" y="1.94369900873235"/>
      </points>
     </column>
@@ -239,31 +239,31 @@
      <noFrames/>
      <points version="2">
       <pt constSeg="false" x="1" yLocal="-1.2444414385176641" y="-1.2444414385176641"/>
-      <pt constSeg="false" x="48" yLocal="-0.071110939343867585" y="-0.071110939343867585"/>
+      <pt constSeg="false" x="96" yLocal="-0.071110939343867585" y="-0.071110939343867585"/>
      </points>
     </column>
     <column type="3" name="ATV-0AC14974D1E39DB8" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="48" yLocal="0" y="0"/>
+      <pt constSeg="false" x="96" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0AC14974D1E39DB9" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="48" yLocal="0" y="0"/>
+      <pt constSeg="false" x="96" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0AC14974D1E39DBA" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="48" yLocal="0" y="0"/>
+      <pt constSeg="false" x="96" yLocal="0" y="0"/>
      </points>
     </column>
-    <column type="0" name="lightning-2" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="19">
+    <column type="0" name="lightning-2" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="19">
      <elementSeq exposures="49-96" val="1" id="19"/>
     </column>
     <column type="3" name="ATV-0AC14974D1E3B1B4" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
@@ -610,6 +610,7 @@
      </module>
      <module type="READ" name="lightning-2" pos="0,0,0" publishUnderTab="lightning-1">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>

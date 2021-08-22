@@ -46,4 +46,5 @@ Solid    "New 7"                    0x0ac25e073cd0cd8d  53   0 113 255
 Solid    "New 8"                    0x0ac25e073cd3c2e5   5   3   7 255
 Solid    "New 9"                    0x0ac25e073cd40be2  48   0  24 255
 Solid    "New 10"                   0x0ac25e073cdcd645  86 254  71 255
-Solid    "New 0"                    0x0ac2d1a9c69958ba  53  50 103 255
+Solid    "New 0"                    0x0ac2d1a9c69958ba  52  47 141 255
+Solid    "New 0"                    0x0ac4d0ba2be04cb9  52  47 141 255

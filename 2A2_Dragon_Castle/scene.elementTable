@@ -3,10 +3,12 @@
  <element id="1" elementName="DJ+Dragon" elementFolder="DJ+Dragon" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="6" elementName="MG-tree" elementFolder="MG-tree" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="7" elementName="MG-Group-1" elementFolder="MG-Group-1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="10" elementName="FG-floor" elementFolder="FG-floor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="12" elementName="MG-Wall" elementFolder="MG-Wall" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="13" elementName="MG-Balcony" elementFolder="MG-Balcony" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="16" elementName="BG-Sky" elementFolder="BG-Sky" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="17" elementName="Stage" elementFolder="Stage" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="19" elementName="MG-Group-2" elementFolder="MG-Group-2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="19" elementName="MG-Group-Balcony" elementFolder="MG-Group-Balcony" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="20" elementName="Wall-New" elementFolder="Wall-New" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="21" elementName="MG-Group-X" elementFolder="MG-Group-X" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="22" elementName="Floor" elementFolder="Floor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
