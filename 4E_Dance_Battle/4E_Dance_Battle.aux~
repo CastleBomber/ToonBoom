@@ -1,18 +1,15 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="4E_Dance_Battle" Modified="2021-08-07 18:38:07" ID="1">
- <Element Name="reference" ID="4" Folder="reference">
+<SceneVersion VersionName="4E_Dance_Battle" Modified="2021-08-23 15:09:01" ID="1">
+ <Element Name="BG" ID="24" Folder="BG">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="background" ID="24" Folder="background">
+ <Element Name="D_Laying" ID="28" Folder="D_Laying">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Dragon_laying" ID="28" Folder="Dragon_laying">
+ <Element Name="D_Handstand" ID="29" Folder="D_Handstand">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="Dragon_handstand" ID="29" Folder="Dragon_handstand">
-  <Drawing Key="" Name="1" Version="1"/>
- </Element>
- <Element Name="Dragon_spin" ID="30" Folder="Dragon_spin">
+ <Element Name="D_Spin" ID="30" Folder="D_Spin">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
 </SceneVersion>

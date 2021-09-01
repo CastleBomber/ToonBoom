@@ -1,7 +1,7 @@
 ToonBoomAnimationInc PaletteFile 2
 Solid    "Dragon white nails"       0x0ab8c49160324681 243 243 243 255
-Solid    "off black"                0x0ac206f018ba2c39  36  33  33 255
 Solid    Black                      0x0ab8c49160300ff2   0   0   0 255
+Solid    "off black"                0x0ac206f018ba2c39  36  33  33 255
 Solid    "Dragon Dark Red (Light)"  0x0ab9d56bcb2349c6 218  74  74 255
 Solid    "Dragon dark red ***"      0x0ab8c49160305adf 188  44  44 255
 Solid    White                      0x0ab9d56bcb22c9e4 255 255 255 255
